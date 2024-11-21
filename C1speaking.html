@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C1Speaking</title>
+    <!--Favicon picture-->
+    <link rel="icon" type="image/x-icon" href="image/nerdynest_favi.png" />
+    <!--Bootstrap CDN Links-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ <!-- Booststrap Icon CDN links -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+ <!-- Google font link -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
+<!--External css links-->
+<link rel="stylesheet" href="stylez.css" />
+<link rel="stylesheet" href="columns.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="nav.css">
+<style>
+       /* General Styles */
+       body {
+           font-family: 'Arial', sans-serif;
+           background-color: #fff;
+           color: black;
+           margin: 0;
+           padding: 0;
+       }
+       /* Header */
+       .header {
+           background-color: #f3a49f;
+           color: white;
+           text-align: center;
+           padding: 40px;
+           font-size: 3rem;
+           font-weight: bold;
+           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+           margin-bottom: 50px;
+       }
+       /* Content Container */
+       .content-container {
+           max-width: 1000px;
+           margin: 0 auto;
+           padding: 50px;
+           background-color: white;
+           border-radius: 12px;
+           box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+           margin-bottom: 50px;
+       }
+       /* Section Title */
+       .section-title {
+           font-size: 2rem;
+           color: #f3a49f;
+           margin-bottom: 20px;
+           font-weight: bold;
+           text-align: center;
+       }
+       /* Section Text */
+       .section-text {
+           font-size: 1.2rem;
+           color: black;
+           line-height: 1.8;
+           margin-bottom: 20px;
+           text-align: justify;
+       }
+       /* Example Box */
+       .example-box {
+           background-color: #ffd4d4;
+           padding: 20px;
+           margin-bottom: 30px;
+           border-left: 5px solid #f3a49f;
+           font-style: italic;
+       }
+       /* Argumentation Strategies */
+       .argumentation-box {
+           background-color: #f3a49f;
+           color: white;
+           padding: 20px;
+           margin-bottom: 30px;
+           border-radius: 8px;
+       }
+       /* Bullet Point List */
+       .bullet-points {
+           font-size: 1.1rem;
+           margin-bottom: 20px;
+       }
+       .bullet-points li {
+           margin-bottom: 10px;
+       }
+       /* CTA Button */
+       .cta-btn {
+           background-color: #f3a49f;
+           color: white;
+           padding: 12px 30px;
+           border: none;
+           border-radius: 5px;
+           font-size: 1.2rem;
+           width: 100%;
+           cursor: pointer;
+           margin-top: 30px;
+       }
+       .cta-btn:hover {
+           background-color: #e59a91;
+       }
+       /* Additional Section for Complexity */
+       .complexity-box {
+           background-color: #ffd4d4;
+           padding: 20px;
+           margin-top: 30px;
+           border-radius: 8px;
+           font-weight: bold;
+           color: #f3a49f;
+       }
+       /* Responsive Design */
+       @media (max-width: 767px) {
+           .header {
+               font-size: 2.2rem;
+           }
+           .content-container {
+               padding: 30px;
+           }
+           .section-title {
+               font-size: 1.7rem;
+           }
+           .section-text {
+               font-size: 1rem;
+           }
+       }
+</style>
+</head>
+<body>
+    <!-- Start of nav bar -->
+    <nav class="navbar navbar-expand-lg sticky-top mx-4 mt-4" style="padding-top: 5px; padding-bottom: 5px;">
+        <a href="index.html" class="navbar-icon ms-2"><img src="image/nerdynest_favi.png" alt="icon" width="100px" height="auto"></a>
+        <!-- toggler button -->
+         <button class="navbar-toggler me-5" data-bs-toggle="collapse" data-bs-target="#nav_id"><span class="navbar-toggler-icon"></span></button>
+         <!-- nav items container -->
+          <div class="collapse navbar-collapse" id="nav_id">
+           <ul class="navbar-nav">
+               <li class="nav-item dropdown me-3"><a href="#" class="nav-link dropdown-toggle active ms-2" data-bs-toggle="dropdown">Skills</a>
+                   <ul class="dropdown-menu" style="background-color: #fee4e4ea;">
+                       <li><a href="reading.html" class="dropdown-item">Reading</a></li>
+                       <li><a href="listening.html" class="dropdown-item">Listening</a></li>
+                       <li><a href="speaking.html" class="dropdown-item">Speaking</a></li>
+                       <li><a href="writing.html" class="dropdown-item">Writing</a></li>
+                       <li><a href="practiceexercises.html" class="dropdown-item">Practicing Exercise</a></li>
+                   </ul>
+               </li>
+               <li class="nav-item dropdown me-3"><a href="#" class="nav-link dropdown-toggle ms-2" data-bs-toggle="dropdown">Linguistics</a>
+                   <ul class="dropdown-menu" style="background-color: #fee4e4ea;">
+                       <li><a href="grammar.html" class="dropdown-item">Grammar</a></li>
+                       <li><a href="vocab.html" class="dropdown-item">Vocabulary</a></li>
+                   </ul>
+               </li>
+               <li class="nav-item me-3"><a href="learingtools.html" class="nav-link ms-2">Learning tools</a></li>
+               <li class="nav-item me-3"><a href="aboutus (1).html" class="nav-link ms-2">About us</a></li>
+           </ul>
+           <ul class="navbar-nav ms-auto">
+               <li class="nav-item"><a href="signup 1.html" class="nav-link"><img src="image/sign up.png" alt="icon" width="100px" height="auto"></a></li>
+           </ul>
+          </div>
+   </nav>
+   <!-- End of nav bar -->
+<!-- Header -->
+<div class="header" style="margin-top: 10%;">
+       C1 Advanced Speaking
+</div>
+<!-- Content Container -->
+<div class="container content-container">
+<!-- Section 1: Introduction to Persuasion -->
+<div class="section-title">1. Introduction to Persuasion</div>
+<div class="section-text">
+           At the C1 level, speaking skills involve making well-supported arguments, using advanced techniques to persuade and influence others. You should be able to express complex ideas clearly, supporting your claims with facts, logic, and emotional appeal. This lesson will guide you through the art of argumentation and persuasion.
+</div>
+<!-- Section 2: Structuring a Persuasive Argument -->
+<div class="section-title">2. Structuring a Persuasive Argument</div>
+<div class="section-text">
+           To make a persuasive argument, you need to structure your ideas logically. A good argument should include:
+</div>
+<div class="argumentation-box">
+           - **Clear Statement of Opinion**: Start by clearly stating your opinion.<br>
+           - **Evidence**: Use evidence or examples to support your claim.<br>
+           - **Counter-Argument**: Acknowledge the opposite view, and explain why it is weaker.<br>
+           - **Conclusion**: End with a strong conclusion that reinforces your position.
+</div>
+<!-- Section 3: Techniques for Persuasion -->
+<div class="section-title">3. Persuasion Techniques</div>
+<div class="section-text">
+           When persuading someone, it's essential to appeal to both **logic** and **emotion**. Here are some effective persuasion techniques:
+</div>
+<ul class="bullet-points">
+<li><strong>Pathos</strong> (Emotional Appeal): Evoke feelings to connect with your audience on a personal level.</li>
+<li><strong>Logos</strong> (Logical Appeal): Use facts, statistics, and rational arguments to support your position.</li>
+<li><strong>Ethos</strong> (Credibility Appeal): Show that you are trustworthy and knowledgeable.</li>
+</ul>
+<!-- Example Section -->
+<div class="section-title">4. Example of a Persuasive Argument</div>
+<div class="section-text">
+           Here's an example of a persuasive argument on the topic of **climate change**:
+</div>
+<div class="example-box">
+           "I believe that climate change is one of the most pressing issues of our time. The evidence is clear: scientists worldwide agree that human activities, such as burning fossil fuels, are contributing to global warming. For example, recent studies show a dramatic rise in global temperatures over the past century. While some argue that climate change is part of a natural cycle, the speed and scale of the changes we are seeing today are unprecedented. The consequences of inaction could be catastrophic, affecting agriculture, sea levels, and human health. Therefore, it's crucial that we take immediate action to reduce emissions and shift towards sustainable energy sources."
+</div>
+<!-- Section 4: Practice Persuasive Speaking -->
+<div class="section-title">5. Practice Persuasive Speaking</div>
+<div class="section-text">
+           Now, it’s your turn to practice. Choose a topic and try to persuade someone using the techniques you've learned. Remember to:
+</div>
+<ul class="bullet-points">
+<li>Start with a clear statement of your opinion.</li>
+<li>Support your argument with evidence and examples.</li>
+<li>Acknowledge the counter-argument and refute it.</li>
+<li>Finish with a strong, compelling conclusion.</li>
+</ul>
+<button class="cta-btn">Practice Now!</button>
+<!-- Section for Complexity in Argumentation -->
+<div class="complexity-box">
+           C1 learners should also practice handling complex issues and exploring multiple perspectives on a topic. The ability to discuss nuanced issues and express sophisticated opinions is a key skill at this level.
+</div>
+</div>
+<!-- Footer section start -->
+<footer class="footer py-4 mt-5" style="box-shadow: 5px 5px 10px rgb(0, 0, 0);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h3><img src="image/nerdynest_favi.png" alt="icon" width="90px" height="auto">Nerdynest</h3>
+                <p>Email: nerdynest0@gmail.com </p>
+                <p>Address: The Language Hub, Suite 500
+                    45 Crescent Heights Avenue
+                    London, W1B 3HH
+                    United Kingdom</p>
+                <p>Phone number: 09780215339</p>    
+            </div>
+            <div class="col-md-4" style="text-align: start; justify-content: center;">
+                <h3>Skills & Linguistics</h3>
+                <ul class="list">
+                    <li><a href="reading.html" class="text-black">Reading</a></li>
+                    <li><a href="listening.html" class="text-black">Listening</a></li>
+                    <li><a href="speaking.html" class="text-black">Speaking</a></li>
+                    <li><a href="writing.html" class="text-black">Writing</a></li>
+                    <li><a href="grammar.html" class="text-black">Grammar</a></li>
+                    <li><a href="vocab.html" class="text-black">Vocabulary</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h3>Quick Links</h3>
+                <ul class="list">
+                    <li><a href="index.html" class="text-black">Home page</a></li>
+                    <li><a href="learingtools.html" class="text-black">Learning Tools</a></li>
+                    <li><a href="aboutus (1).html" class="text-black">About us</a></li>
+                    <li><a href="signup 1.html" class="text-black">Sign up</a></li>
+                    <li><a href="references.html" class="text-black">References</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h3>Follow Us</h3>
+                <ul class="list">
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=61569394432597&mibextid=LQQJ4d"><i class="bi bi-facebook ms-1"></i></a>
+                        <a href="https://www.instagram.com/nerd.ynest/profilecard/?igsh=MXB3NXBjeWJxNGg2Mw=="><i class="bi bi-instagram ms-1"></i></a>
+                        <a href="https://t.me/nerdynest"><i class="bi bi-telegram ms-1"></i></a>
+                        <a href="https://youtube.com/@nerdynest03?si=7pXg-_2LCZVYcdK_"><i class="bi bi-youtube ms-1"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center mt-4"><hr style="color: rgb(0, 0, 0);">
+            &copy; 2024 Nerdynest | All Rights Reserved
+        </div>
+    </div>
+</footer>
+<!-- Footer section end -->
+</body>
+</html>

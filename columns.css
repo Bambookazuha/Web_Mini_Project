@@ -1,0 +1,188 @@
+p {
+  font-size: 18px;
+}
+h1 {
+  font-size: 35px;
+}
+body {
+  background-color: white;
+}
+@media (max-width: 576px) {
+    .navbar {
+      align-items: center; 
+      width: 430px;
+    }
+    .b-container {
+        margin-top: 60px;
+      }
+
+    .f-row {
+        align-items: center;
+        justify-content: space-between; 
+        text-align: justify;
+        margin-left: 50px;
+      }
+
+    .f-row img {
+        margin-left: 15%;
+        width: 490px; 
+        height: auto;
+        margin-bottom: 5px;
+      }
+
+    .f-row h1 {
+        text-align: center;
+        margin-left: 25%;
+        font-size: 25px;
+        margin-top: 10px;
+      }
+
+    .f-row p {
+        justify-content: center;
+        margin-left: 25%;
+        font-size: 17px;
+        margin-top: 5px;
+      }
+
+    .btn.button {
+        margin-left: 25%;
+        font-size: 16px;
+        padding: 10px 20px;
+        margin-top: 15px;
+      }
+
+    .f-text{
+        margin-left: 20%;
+        text-align: center;
+      }
+    .t-row {
+        width: 80%;
+        height: 80%;
+        margin-left: 50%;
+        justify-content: center;
+      }  
+    .f-container h1 {
+        font-size: 25px;
+        margin-left: 45%;
+      }
+    .line {
+        margin-left: 6%;
+        width: 143%;
+        color: black;
+      }
+    .f-container .t-row {
+        display: flex;
+        margin: 75px;
+        width: 440px;
+        cursor: pointer;
+    }
+    .s-row {
+      width: 80%;
+      height: 80%;
+      margin-left: 50%;
+      justify-content: center;
+    } 
+    .s-container h1 {
+      font-size: 25px;
+      margin-left: 45%;
+    }
+    .s-container .s-row {
+      display: flex;
+      margin: 75px;
+      width: 440px;
+      cursor: pointer;
+    }
+    .footer {
+      width: 650px;
+    }
+    }
+
+@media (max-width: 320px) {
+        .navbar {
+          align-items: center; 
+          width: 380px;
+        } 
+        .b-container {
+            margin-top: 60px;
+          }
+    
+        .f-row {
+            align-items: center;
+            justify-content: space-between; 
+            text-align: justify;
+            margin-left: 50px;
+          }
+    
+        .f-row img {
+            margin-left: 23%;
+            width: 450px; 
+            height: auto;
+            margin-bottom: 5px;
+          }
+    
+        .f-row h1 {
+            margin-left: 23%;
+            font-size: 22px;
+            margin-top: 10px;
+          }
+    
+        .f-row p {
+            justify-content: center;
+            margin-left: 23%;
+            font-size: 14px;
+          }
+    
+        .btn.button {
+            margin-left: 23%;
+            font-size: 16px;
+            padding: 10px 20px;
+            margin-top: 15px;
+          }
+        .t-row {
+            width: 80%;
+            height: 80%;
+            margin-left: 50%;
+            justify-content: center;
+          } 
+        .t-row p {
+          margin-right: 50%;
+        }  
+        .f-container h1 {
+            font-size: 25px;
+            margin-left: 79%;
+          }
+        .line {
+            margin-left: 6%;
+            width: 193%;
+            color: black;
+          }
+        .f-container .t-row {
+            display: flex;
+            margin: 61px;
+            width: 440px;
+            cursor: pointer;
+        }
+        .s-row {
+          width: 80%;
+          height: 80%;
+          margin-left: 50%;
+          justify-content: center;
+        } 
+        .s-container h1 {
+          font-size: 25px;
+          margin-left: 79%;
+        }
+        .s-container .s-row {
+          display: flex;
+          margin: 75px;
+          width: 440px;
+          cursor: pointer;
+        }
+    }    
+@media (max-width: 769px) {
+  .navbar {
+    width: 92%;
+    align-items: center;
+  }
+}     
+    

@@ -1,0 +1,90 @@
+.b-container {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+ 
+.btn.button {
+    background-color:#f3a49f;
+    font-size: 15px;
+    width: 190px;
+    border-radius: 10px;
+ 
+}
+.btn.button:hover {
+    background-color: #fcc9c9 ;
+    border-radius: 10px;
+}
+
+.text {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+.btn.r-button {
+    background-color:#f3a49f;
+    font-size: 15px;
+    color: black;
+}
+.btn.r-button:hover {
+    background-color:#fcc9c9;
+}
+.heading {
+    font-size: 25px;
+    color: black;
+}
+p {
+    font-size: 16px;
+}
+.paragraph1 {
+    color: rgb(0, 0, 0);
+}
+.seventeen {
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+}
+a {
+    font-size: 17px;
+    text-decoration: none;
+}
+.viwer {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+.bi-star-fill {
+    color: rgb(246, 84, 111);
+}
+.card.card-body {
+    background-color: rgba(246, 246, 246, 0.938);
+    box-shadow: 2px 2px 2px #57677d;
+    cursor: pointer;
+    transition: ease-in 0.3s;
+
+}
+.card {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+.card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+   }
+.btn.s-button {
+    background-color: #f3a49f;
+    padding-bottom: 3px;
+}
+.btn.s-button:hover {
+    background-color:  #fcc9c9;
+}
+.heading2 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.paragraph2 {
+    color: rgb(1, 1, 1);
+    font-size: 18px;
+}
+
+
+

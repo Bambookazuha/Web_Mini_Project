@@ -1,0 +1,366 @@
+.center {
+  text-align: center;
+}
+p {
+  font-size: 20px;
+}
+
+.nav .nav-item .nav-link:hover {
+  color: #f3a49f;
+  text-align: center;
+  transform: translateY(-5px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.butn {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ffd4d4;
+}
+.butn:hover {
+  background-color: #f3a49f;
+}
+.speechpic {
+  border-radius: 10px;
+}
+.tips {
+  background-color: white;
+  box-shadow: 10px 5px #ffd4d4;
+  border-radius: 10px;
+  padding: 10px;
+}
+.tips:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.pro-box {
+  background-color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+.pro-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 8px 32px #f3a49f;
+}
+.pro-box b {
+  font-size: 20px;
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+/* Keyframes for animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes buttonPop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Animation classes */
+.build-your {
+  animation: fadeInUp 1s ease-out;
+}
+
+.build {
+  animation: scaleIn 1.2s ease-out 0.3s;
+  animation-fill-mode: both;
+}
+
+.learn {
+  animation: fadeInUp 1.2s ease-out 0.6s;
+  animation-fill-mode: both;
+}
+
+.click {
+  animation: buttonPop 1.5s ease-in-out 0.9s;
+  animation-fill-mode: both;
+}
+
+.first-pa {
+  opacity: 0;
+  animation: fadeInUp 1.5s ease-out 0s forwards;
+}
+.tab-pane {
+  animation: fadeInUp 1s ease-out forwards;
+  opacity: 0;
+}
+/*medium device view*/
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(image/gra-md.png);
+    background-repeat: no-repeat;
+    background-color: #dfdcdf;
+    font-family: "Faculty Glyphic", sans-serif;
+  }
+  .vocab {
+    padding-top: 170px;
+    position: relative;
+  }
+  .build {
+    position: absolute;
+    top: 270px;
+    left: 20px;
+    font-size: 50px;
+    color: #dfdcdf;
+    z-index: 1;
+  }
+  .learn {
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+  }
+  .click {
+    background-color: #f3a49f;
+    padding: 15px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 90px;
+  }
+  .types {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 5px #ffd4d4;
+    position: absolute;
+    top: 210%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* bottom: -440px; */
+  }
+
+  .cur {
+    position: absolute;
+    top: 195%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .word-btn {
+    font-size: 12px;
+    width: 80%;
+    padding: 10px;
+    background-color: #ffd4d4;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .essential-vocab {
+    position: absolute;
+    top: 100%;
+  }
+  .tab-content {
+    position: absolute;
+    width: 100%;
+    margin-top: 120%;
+  }
+  .nav .nav-item .nav-link {
+    background-color: white;
+    margin: 0 5px;
+    font-size: 20px;
+    color: black;
+  }
+}
+/*small device view*/
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url(image/gra-sm.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #dfdcdf;
+    font-family: "Faculty Glyphic", sans-serif;
+  }
+  .vocab {
+    padding-top: 110px;
+    position: relative;
+  }
+  .word-btn {
+    font-size: 15px;
+    padding: 10px;
+    width: 60%;
+    background-color: #ffd4d4;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .build {
+    position: absolute;
+    top: 270px;
+    left: 20px;
+    font-size: 70px;
+    color: #dfdcdf;
+    z-index: 1;
+  }
+  .learn {
+    position: absolute;
+    top: 350px;
+    left: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+  }
+  .click {
+    background-color: #f3a49f;
+    padding: 15px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 25px;
+  }
+  .types {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 5px #ffd4d4;
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* bottom: -440px; */
+  }
+  .cur {
+    position: absolute;
+    top: 142%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .tab-content {
+    position: absolute;
+
+    width: 100%;
+    margin-top: 145%;
+  }
+  .essential-vocab {
+    position: absolute;
+    top: 100%;
+  }
+
+  .nav .nav-item .nav-link {
+    background-color: white;
+    margin: 0 5px;
+    font-size: 20px;
+    color: black;
+  }
+}
+/*large device view*/
+@media screen and (min-width: 992px) {
+  body {
+    background-image: url(image/gra-bg.png);
+    background-size: cover;
+    background-color: #e9e9e9d9;
+    font-family: "Faculty Glyphic", sans-serif;
+  }
+  .word-btn {
+    font-size: 15px;
+    padding: 10px;
+    width: 60%;
+    background-color: #ffd4d4;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .vocab {
+    padding-top: 170px;
+    position: relative;
+  }
+  .build {
+    position: absolute;
+    top: 380px;
+    left: 20px;
+    font-size: 70px;
+    color: #dfdcdf;
+    z-index: 1;
+  }
+  .learn {
+    position: absolute;
+    top: 460px;
+    left: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+  }
+  .click {
+    background-color: #f3a49f;
+    padding: 15px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .tab-content {
+    position: absolute;
+    width: 100%;
+    margin-top: 40%;
+  }
+  .types {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 5px #ffd4d4;
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* bottom: -440px; */
+  }
+  .cur {
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .essential-vocab {
+    position: absolute;
+    top: 100%;
+  }
+
+  .nav .nav-item .nav-link {
+    background-color: white;
+    margin: 0 5px;
+    font-size: 20px;
+    color: black;
+  }
+}

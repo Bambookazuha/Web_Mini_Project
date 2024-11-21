@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C2Speaking</title>
+    <!--Favicon picture-->
+    <link rel="icon" type="image/x-icon" href="image/nerdynest_favi.png" />
+    <!--Bootstrap CDN Links-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ <!-- Booststrap Icon CDN links -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+ <!-- Google font link -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
+<!--External css links-->
+<link rel="stylesheet" href="stylez.css" />
+<link rel="stylesheet" href="columns.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="nav.css">
+<style>
+        .header {
+           background-color: #f3a49f;
+           color: white;
+           text-align: center;
+           padding: 60px 20px;
+           font-size: 3rem;
+           font-weight: bold;
+           box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+           margin-bottom: 50px;
+       }
+       .content-container {
+           max-width: 1000px;
+           margin: 0 auto;
+           padding: 40px;
+           background-color: white;
+           border-radius: 12px;
+           box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+       }
+       .section-title {
+           font-size: 2rem;
+           color: #f3a49f;
+           margin-bottom: 20px;
+           font-weight: bold;
+           text-align: center;
+       }
+       .section-text {
+           font-size: 1.2rem;
+           color: black;
+           line-height: 1.8;
+           margin-bottom: 30px;
+           text-align: justify;
+       }
+       .key-techniques-box {
+           background-color: #ffd4d4;
+           padding: 20px;
+           margin-bottom: 30px;
+           border-left: 5px solid #f3a49f;
+           font-style: italic;
+           font-weight: bold;
+           border-radius: 8px;
+       }
+       .discussion-box {
+           background-color: #f3a49f;
+           color: white;
+           padding: 20px;
+           margin-bottom: 30px;
+           border-radius: 8px;
+       }
+       .discussion-box ul {
+           margin-left: 20px;
+       }
+       .discussion-box ul li {
+           margin-bottom: 10px;
+       }
+       .example-box {
+           background-color: #ffd4d4;
+           padding: 20px;
+           margin-bottom: 30px;
+           border-left: 5px solid #f3a49f;
+           font-size: 1.1rem;
+           line-height: 1.6;
+       }
+       .advice-box {
+           background-color: #f3a49f;
+           color: white;
+           padding: 25px;
+           margin-bottom: 30px;
+           border-radius: 8px;
+           font-weight: bold;
+           text-align: center;
+       }
+       .cta-footer {
+           background-color: #ffd4d4;
+           padding: 30px;
+           text-align: center;
+           font-size: 1.2rem;
+           font-weight: bold;
+           border-radius: 8px;
+       }
+       .cta-footer p {
+           font-size: 1.3rem;
+       }
+       .cta-footer button {
+           background-color: #f3a49f;
+           color: white;
+           padding: 12px 25px;
+           border: none;
+           border-radius: 5px;
+           font-size: 1.1rem;
+           margin-top: 20px;
+           cursor: pointer;
+       }
+       .cta-footer button:hover {
+           background-color: #e59a91;
+       }
+       @media (max-width: 767px) {
+           .header {
+               font-size: 2rem;
+           }
+           .content-container {
+               padding: 30px;
+           }
+           .section-title {
+               font-size: 1.7rem;
+           }
+           .section-text {
+               font-size: 1rem;
+           }
+           .key-techniques-box {
+               font-size: 1rem;
+           }
+           .discussion-box {
+               font-size: 1rem;
+           }
+           .example-box {
+               font-size: 1rem;
+           }
+           .advice-box {
+               font-size: 1rem;
+           }
+           .cta-footer {
+               font-size: 1rem;
+           }
+       }
+</style>
+</head>
+<body>
+    <!-- Start of nav bar -->
+    <nav class="navbar navbar-expand-lg sticky-top mx-4 mt-4" style="padding-top: 5px; padding-bottom: 5px;">
+        <a href="index.html" class="navbar-icon ms-2"><img src="image/nerdynest_favi.png" alt="icon" width="100px" height="auto"></a>
+        <!-- toggler button -->
+         <button class="navbar-toggler me-5" data-bs-toggle="collapse" data-bs-target="#nav_id"><span class="navbar-toggler-icon"></span></button>
+         <!-- nav items container -->
+          <div class="collapse navbar-collapse" id="nav_id">
+           <ul class="navbar-nav">
+               <li class="nav-item dropdown me-3"><a href="#" class="nav-link dropdown-toggle active ms-2" data-bs-toggle="dropdown">Skills</a>
+                   <ul class="dropdown-menu" style="background-color: #fee4e4ea;">
+                       <li><a href="reading.html" class="dropdown-item">Reading</a></li>
+                       <li><a href="listening.html" class="dropdown-item">Listening</a></li>
+                       <li><a href="speaking.html" class="dropdown-item">Speaking</a></li>
+                       <li><a href="writing.html" class="dropdown-item">Writing</a></li>
+                       <li><a href="practiceexercises.html" class="dropdown-item">Practicing Exercise</a></li>
+                   </ul>
+               </li>
+               <li class="nav-item dropdown me-3"><a href="#" class="nav-link dropdown-toggle ms-2" data-bs-toggle="dropdown">Linguistics</a>
+                   <ul class="dropdown-menu" style="background-color: #fee4e4ea;">
+                       <li><a href="grammar.html" class="dropdown-item">Grammar</a></li>
+                       <li><a href="vocab.html" class="dropdown-item">Vocabulary</a></li>
+                   </ul>
+               </li>
+               <li class="nav-item me-3"><a href="learingtools.html" class="nav-link ms-2">Learning tools</a></li>
+               <li class="nav-item me-3"><a href="aboutus (1).html" class="nav-link ms-2">About us</a></li>
+           </ul>
+           <ul class="navbar-nav ms-auto">
+               <li class="nav-item"><a href="signup 1.html" class="nav-link"><img src="image/sign up.png" alt="icon" width="100px" height="auto"></a></li>
+           </ul>
+          </div>
+   </nav>
+   <!-- End of nav bar -->
+<!-- Header -->
+<div class="header" style="margin-top: 10%;">
+       C2 Speaking
+</div>
+<!-- Content Container -->
+<div class="container content-container">
+<!-- Section 1: Introduction to Complex Discussions -->
+<div class="section-title">1. Introduction to Complex Discussions</div>
+<div class="section-text">
+           At the C2 level, speaking involves navigating complex discussions on abstract and intricate topics. This lesson will guide you through discussing **sophisticated issues**, utilizing a range of techniques to **argue effectively**, and **presenting nuanced perspectives**. As a C2 learner, you should be comfortable presenting **compelling arguments**, using **logical reasoning**, and countering opposing views with **subtlety and finesse**.
+</div>
+<!-- Section 2: Key Discussion Techniques -->
+<div class="section-title">2. Key Discussion Techniques</div>
+<div class="section-text">
+           When engaging in complex discussions, it is vital to maintain **clarity**, **logical progression**, and a **balanced approach** to presenting your views. Here are some techniques:
+</div>
+<div class="key-techniques-box">
+<ul>
+<li><strong>Present Contradictory Views</strong>: Acknowledge differing perspectives while explaining why your argument is stronger.</li>
+<li><strong>Counter-arguments</strong>: Refute points made by others with **facts** and **reasoning**.</li>
+<li><strong>Use Hypotheticals</strong>: Discuss **what-ifs** to explore the broader implications of an argument.</li>
+<li><strong>Appeal to Logic and Emotion</strong>: Combine **logical reasoning** with an appeal to the audience's emotions to strengthen your position.</li>
+</ul>
+</div>
+<!-- Section 3: Advanced Examples of Fluent Argumentation -->
+<div class="section-title">3. Example of Fluent Argumentation</div>
+<div class="section-text">
+           Below is an advanced example of **fluently arguing** a complex issue. This example demonstrates how to structure and support your argument with clear evidence and strong reasoning.
+</div>
+<div class="example-box">
+           "While some may argue that the rise of automation will lead to widespread unemployment, I believe that technology will instead create new opportunities. In fact, studies by experts such as Professor Smith from MIT show that for every job displaced by automation, two new positions in the tech sector are created. Moreover, these technological advancements allow for more efficient production methods, leading to economic growth and higher wages in the long run. The key challenge, however, is **training and reskilling** workers to ensure they are equipped for these new roles. Therefore, it is not automation itself but the lack of preparedness that poses the greatest risk."
+</div>
+<!-- Section 4: Strategic Advice for C2 Learners -->
+<div class="section-title">4. Strategic Advice for C2 Learners</div>
+<div class="section-text">
+           At the C2 level, it's crucial to master both the **depth** and **breadth** of your arguments. Here are some tips for improving your skills:
+</div>
+<div class="advice-box">
+<ul>
+<li>Continuously build your **knowledge** on diverse topics, ensuring that you can speak on a variety of complex issues.</li>
+<li>Practice your **listening skills**: Understand the views of others thoroughly before responding.</li>
+<li>Develop your ability to **synthesize information** from multiple sources to support your arguments.</li>
+<li>Maintain **fluency and coherence**, ensuring your points flow logically from one to the next.</li>
+</ul>
+</div>
+<!-- Section 5: Reflective Conclusion -->
+<div class="cta-footer">
+<p>By honing your skills in advanced argumentation and fluent discussion, you will be able to engage effectively in high-level debates and discussions. Practice these techniques regularly to develop your critical thinking and communication skills.</p>
+<button>Start Practicing Now</button>
+</div>
+</div>
+<!-- Footer section start -->
+<footer class="footer py-4 mt-5" style="box-shadow: 5px 5px 10px rgb(0, 0, 0);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h3><img src="image/nerdynest_favi.png" alt="icon" width="90px" height="auto">Nerdynest</h3>
+                <p>Email: nerdynest0@gmail.com </p>
+                <p>Address: The Language Hub, Suite 500
+                    45 Crescent Heights Avenue
+                    London, W1B 3HH
+                    United Kingdom</p>
+                <p>Phone number: 09780215339</p>    
+            </div>
+            <div class="col-md-4" style="text-align: start; justify-content: center;">
+                <h3>Skills & Linguistics</h3>
+                <ul class="list">
+                    <li><a href="reading.html" class="text-black">Reading</a></li>
+                    <li><a href="listening.html" class="text-black">Listening</a></li>
+                    <li><a href="speaking.html" class="text-black">Speaking</a></li>
+                    <li><a href="writing.html" class="text-black">Writing</a></li>
+                    <li><a href="grammar.html" class="text-black">Grammar</a></li>
+                    <li><a href="vocab.html" class="text-black">Vocabulary</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h3>Quick Links</h3>
+                <ul class="list">
+                    <li><a href="index.html" class="text-black">Home page</a></li>
+                    <li><a href="learingtools.html" class="text-black">Learning Tools</a></li>
+                    <li><a href="aboutus (1).html" class="text-black">About us</a></li>
+                    <li><a href="signup 1.html" class="text-black">Sign up</a></li>
+                    <li><a href="references.html" class="text-black">References</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h3>Follow Us</h3>
+                <ul class="list">
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=61569394432597&mibextid=LQQJ4d"><i class="bi bi-facebook ms-1"></i></a>
+                        <a href="https://www.instagram.com/nerd.ynest/profilecard/?igsh=MXB3NXBjeWJxNGg2Mw=="><i class="bi bi-instagram ms-1"></i></a>
+                        <a href="https://t.me/nerdynest"><i class="bi bi-telegram ms-1"></i></a>
+                        <a href="https://youtube.com/@nerdynest03?si=7pXg-_2LCZVYcdK_"><i class="bi bi-youtube ms-1"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center mt-4"><hr style="color: rgb(0, 0, 0);">
+            &copy; 2024 Nerdynest | All Rights Reserved
+        </div>
+    </div>
+</footer>
+<!-- Footer section end -->
+</body>
+</html>

@@ -1,0 +1,74 @@
+* {
+  font-family: "Faculty Glyphic", sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding-top: 3%;
+  margin-bottom: 5%;
+}
+body {
+  animation: fadeIn 1s ease-in-out;
+    background-color: #e9e9e9d9;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.hText {
+  margin: 0;
+  padding: 25px;
+}
+
+.T1 {
+  font-size: 1.2em;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.T2 {
+  font-size: 3em;
+}
+
+.mainBody {
+  background-color: white;
+  width: 40%;
+  margin-left: 10%;
+}
+
+.insider {
+  margin-top: 40px;
+  margin-left: 65px;
+  margin-bottom: 25px;
+  width: 80%;
+}
+
+.I4 {
+  text-align: center;
+}
+
+.I4 button {
+  margin-bottom: 10%;
+  background-color: #f3a49f;
+  padding: 13px 30px 13px 55px;
+  font-size: 0.9em;
+}
+
+.I4 h5 {
+  color: #f3a49f;
+  font-size: 1.2em;
+}
+
+@media only screen and (max-width: 1400px) {
+  .mainBody {
+    width: 60%;
+    margin: 0 auto;
+  }
+}

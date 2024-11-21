@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B1Writing</title>
+<!--Favicon picture-->
+<link rel="icon" type="image/x-icon" href="image/nerdynest_favi.png" />
+<!--Bootstrap CDN inks -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="shasha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- Booststrap Icon CDN links -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<link rel="stylesheet" href="stylez.css">
+<link rel="stylesheet" href="nav.css">
+<link rel="stylesheet" href="columns.css">
+<link rel="stylesheet" href="footer.css">
+<!-- Google font link -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
+<style>
+    .navbar {
+    position: fixed;
+    }
+       body {
+           margin: 0;
+           padding: 0;
+           background: #f5f3f5;
+           color: #333;
+       }
+       .header {
+           background: #ffd4d4;
+           color: white;
+           text-align: center;
+           padding: 3rem 1rem;
+       }
+       .header h1 {
+           font-size: 3.5rem;
+           font-weight: bold;
+       }
+       .header p {
+           font-size: 1.2rem;
+           margin-top: 0.5rem;
+       }
+       .section {
+           padding: 2rem 1rem;
+           margin: 2rem 0;
+       }
+       .section:nth-child(even) {
+           background-color: #f5f3f5;
+       }
+       .section:nth-child(odd) {
+           background-color: #f5f3f5;
+       }
+       .tips-box {
+           border-left: 4px solid #f3a49f;
+           padding: 1rem 1.5rem;
+           margin-bottom: 2rem;
+           border-radius: 5px;
+           background: #f8f9fa;
+           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+       }
+       .tips-box h2 {
+           color: #f3a49f;
+       }
+       .examples img {
+           width: 100%;
+           border-radius: 5px;
+           margin-bottom: 1rem;
+       }
+       .exercise-box {
+           background: #ffffff;
+           border-radius: 5px;
+           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+           padding: 1.5rem;
+           margin-bottom: 2rem;
+           width: 114%;
+       }
+       .exercise-box h3 {
+           color: black;
+       }
+       .task-input {
+           border: 1px solid #ddd;
+           border-radius: 5px;
+           padding: 0.5rem;
+           width: 100%;
+           margin-top: 1rem;
+       }
+       .vocab-list {
+           list-style: none;
+           padding: 0;
+           margin: 0;
+           display: flex;
+           flex-wrap: wrap;
+           gap: 1rem;
+       }
+       .vocab-list li {
+           background: #f3a49f;
+           color: white;
+           padding: 0.5rem 1rem;
+           border-radius: 5px;
+           font-size: 1rem;
+           display: inline-block;
+       }
+</style>
+</head>
+<body>
+    <!-- Start of nav bar -->
+    <nav class="navbar navbar-expand-lg sticky-top mx-4 mt-4" style="padding-top: 5px; padding-bottom: 5px;">
+        <a href="index.html" class="navbar-icon ms-2"><img src="image/nerdynest_favi.png" alt="icon" width="100px" height="auto"></a>
+        <!-- toggler button -->
+         <button class="navbar-toggler me-5" data-bs-toggle="collapse" data-bs-target="#nav_id"><span class="navbar-toggler-icon"></span></button>
+         <!-- nav items container -->
+          <div class="collapse navbar-collapse" id="nav_id">
+           <ul class="navbar-nav">
+               <li class="nav-item dropdown me-3"><a href="#" class="nav-link dropdown-toggle active ms-2" data-bs-toggle="dropdown">Skills</a>
+                   <ul class="dropdown-menu" style="background-color: #fee4e4ea;">
+                       <li><a href="reading.html" class="dropdown-item">Reading</a></li>
+                       <li><a href="listening.html" class="dropdown-item">Listening</a></li>
+                       <li><a href="speaking.html" class="dropdown-item">Speaking</a></li>
+                       <li><a href="writing.html" class="dropdown-item">Writing</a></li>
+                       <li><a href="practiceexercises.html" class="dropdown-item">Practicing Exercise</a></li>
+                   </ul>
+               </li>
+               <li class="nav-item dropdown me-3"><a href="#" class="nav-link dropdown-toggle ms-2" data-bs-toggle="dropdown">Linguistics</a>
+                   <ul class="dropdown-menu" style="background-color: #fee4e4ea;">
+                       <li><a href="grammar.html" class="dropdown-item">Grammar</a></li>
+                       <li><a href="vocab.html" class="dropdown-item">Vocabulary</a></li>
+                   </ul>
+               </li>
+               <li class="nav-item me-3"><a href="learingtools.html" class="nav-link ms-2">Learning tools</a></li>
+               <li class="nav-item me-3"><a href="aboutus (1).html" class="nav-link ms-2">About us</a></li>
+           </ul>
+           <ul class="navbar-nav ms-auto">
+               <li class="nav-item"><a href="signup 1.html" class="nav-link"><img src="image/sign up.png" alt="icon" width="100px" height="auto"></a></li>
+           </ul>
+          </div>
+   </nav>
+   <!-- End of nav bar -->
+    <header class="header" style="margin-top: 10%;">
+        <h1>B1 Writing</h1>
+        <p>Improve your writing with us!</p>
+    </header>
+    <!-- Writing Tips Section -->
+     <div class="container section">
+        <div class="tips-box">
+            <h2>Tips</h2>
+            <ul>
+                <li>Use a variety of sentence structures, such as compound and complex sentences.</li>
+                <li>Incorporate transitional words like *however*, *therefore*, and *in addition*.</li>
+                <li>Organize your ideas into clear paragraphs with a main idea and supporting sentences.</li>
+                <li>Check for grammar and punctuation accuracy after writing.</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Vocabulary Section -->
+     <div class="container section">
+        <h2>Useful Vocabulary</h2>
+        <p>Expand your vocabulary for different writing topics.</p>
+        <ul class="vocab-list">
+            <li>environment</li>
+            <li>community</li>
+            <li>education</li>
+            <li>technology</li>
+            <li>entertainment</li>
+            <li>important</li>
+            <li>challenge</li>
+            <li>solution</li>
+            <li>valuable</li>
+            <li>enthusiastic</li>
+            <li>commitment</li>
+            <li>business</li>
+        </ul>
+    </div>
+    <div class="container section">
+        <div class="exercise-box"  style="background-color: #fee4e4ea ;">
+            <h3>Exercise 1: Writing a Formal Email</h3>
+            <p>Write an email to your teacher asking for advice on how to improve your writing skills. Use formal language and appropriate sentence structures.</p>
+            <textarea class="task-input" rows="5" placeholder="Write your email here..."></textarea>
+            <button class="btn-submit">Submit</button>
+        </div>
+        <div class="exercise-box" style="background-color: #fee4e4ea ;">
+            <h3>Exercise 2: Write About a Problem</h3>
+            <p>Write 150 words about a problem in your community and suggest possible solutions.</p>
+            <textarea class="task-input" rows="5" placeholder="Write about the problem here..."></textarea>
+            <button class="btn-submit">Submit</button>
+        </div>
+        <div class="exercise-box" style="background-color: #fee4e4ea ;">
+            <h3>Exercise 3: Writing a Short Story</h3>
+            <p>Write 150 words story about the best day of your life.</p>
+            <textarea class="task-input" rows="5" placeholder="Write your short story here..."></textarea>
+            <button class="btn-submit">Submit</button>
+        </div>
+        <div class="exercise-box" style="background-color: #fee4e4ea ;">
+            <h3>Exercise 4: Write an Invitation Letter</h3>
+            <p>Write a birthday party invitation letter consists of 100-150 words to your friend.</p>
+            <textarea class="task-input" rows="5" placeholder="Write your invitation letter here..."></textarea>
+            <button class="btn-submit">Submit</button>
+        </div>
+    </div>    
+<!-- Footer section start -->
+<footer class="footer py-4 mt-5" style="box-shadow: 5px 5px 10px rgb(0, 0, 0);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h3><img src="image/nerdynest_favi.png" alt="icon" width="90px" height="auto">Nerdynest</h3>
+                <p>Email: nerdynest0@gmail.com </p>
+                <p>Address: The Language Hub, Suite 500
+                    45 Crescent Heights Avenue
+                    London, W1B 3HH
+                    United Kingdom</p>
+                <p>Phone number: 09780215339</p>    
+            </div>
+            <div class="col-md-4" style="text-align: start; justify-content: center;">
+                <h3>Skills & Linguistics</h3>
+                <ul class="list">
+                    <li><a href="reading.html" class="text-black">Reading</a></li>
+                    <li><a href="listening.html" class="text-black">Listening</a></li>
+                    <li><a href="speaking.html" class="text-black">Speaking</a></li>
+                    <li><a href="writing.html" class="text-black">Writing</a></li>
+                    <li><a href="grammar.html" class="text-black">Grammar</a></li>
+                    <li><a href="vocab.html" class="text-black">Vocabulary</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h3>Quick Links</h3>
+                <ul class="list">
+                    <li><a href="index.html" class="text-black">Home page</a></li>
+                    <li><a href="learingtools.html" class="text-black">Learning Tools</a></li>
+                    <li><a href="aboutus (1).html" class="text-black">About us</a></li>
+                    <li><a href="signup 1.html" class="text-black">Sign up</a></li>
+                    <li><a href="references.html" class="text-black">References</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h3>Follow Us</h3>
+                <ul class="list">
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=61569394432597&mibextid=LQQJ4d"><i class="bi bi-facebook ms-1"></i></a>
+                        <a href="https://www.instagram.com/nerd.ynest/profilecard/?igsh=MXB3NXBjeWJxNGg2Mw=="><i class="bi bi-instagram ms-1"></i></a>
+                        <a href="https://t.me/nerdynest"><i class="bi bi-telegram ms-1"></i></a>
+                        <a href="https://youtube.com/@nerdynest03?si=7pXg-_2LCZVYcdK_"><i class="bi bi-youtube ms-1"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center mt-4"><hr style="color: rgb(0, 0, 0);">
+            &copy; 2024 Nerdynest | All Rights Reserved
+        </div>
+    </div>
+</footer>
+<!-- Footer section end -->
+</body>
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B2Speaking</title>
+    <!--Favicon picture-->
+    <link rel="icon" type="image/x-icon" href="image/nerdynest_favi.png" />
+    <!--Bootstrap CDN Links-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ <!-- Booststrap Icon CDN links -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+ <!-- Google font link -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
+<!--External css links-->
+<link rel="stylesheet" href="stylez.css" />
+<link rel="stylesheet" href="columns.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="nav.css">
+<!-- Google font link -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
+<style>
+       .header {
+           background-color: #f3a49f;
+           color: white;
+           text-align: center;
+           padding: 40px;
+           font-size: 2.5rem;
+           font-weight: bold;
+           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+       }
+       .content-container {
+           max-width: 1200px;
+           margin: 0 auto;
+           padding: 40px;
+           background-color: white;
+           border-radius: 12px;
+           box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+           margin-top: 40px;
+       }
+       .section-title {
+           font-size: 1.8rem;
+           color: #f3a49f;
+           margin-bottom: 20px;
+           font-weight: bold;
+       }
+       .section-text {
+           font-size: 1.1rem;
+           color: black;
+           line-height: 1.6;
+           margin-bottom: 20px;
+       }
+       .example-box {
+           background-color: #ffd4d4;
+           padding: 20px;
+           margin-bottom: 30px;
+           border-left: 5px solid #f3a49f;
+       }
+       .bullet-points {
+           font-size: 1.1rem;
+           margin-bottom: 20px;
+       }
+       .bullet-points li {
+           margin-bottom: 10px;
+       }
+       .cta-btn {
+           background-color: #f3a49f;
+           color: white;
+           padding: 12px 25px;
+           border: none;
+           border-radius: 5px;
+           font-size: 1.1rem;
+           cursor: pointer;
+           width: 100%;
+       }
+       .cta-btn:hover {
+           background-color: #e59a91;
+       }
+
+       .tips-title{
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+       }
+       .tips-section {
+           background-color: #f3a49f;
+           color: white;
+           padding: 20px;
+           border-radius: 8px;
+           margin-top: 40px;
+       }
+       @media (max-width: 767px) {
+           .header {
+               font-size: 2rem;
+           }
+           .content-container {
+               padding: 20px;
+           }
+           .section-title {
+               font-size: 1.5rem;
+           }
+           .section-text {
+               font-size: 1rem;
+           }
+       }
+</style>
+</head>
+<body>
+    <!-- Start of nav bar -->
+    <nav class="navbar navbar-expand-lg sticky-top mx-4 mt-4" style="padding-top: 5px; padding-bottom: 5px;">
+        <a href="index.html" class="navbar-icon ms-2"><img src="image/nerdynest_favi.png" alt="icon" width="100px" height="auto"></a>
+        <!-- toggler button -->
+         <button class="navbar-toggler me-5" data-bs-toggle="collapse" data-bs-target="#nav_id"><span class="navbar-toggler-icon"></span></button>
+         <!-- nav items container -->
+          <div class="collapse navbar-collapse" id="nav_id">
+           <ul class="navbar-nav">
+               <li class="nav-item dropdown me-3"><a href="#" class="nav-link dropdown-toggle active ms-2" data-bs-toggle="dropdown">Skills</a>
+                   <ul class="dropdown-menu" style="background-color: #fee4e4ea;">
+                       <li><a href="reading.html" class="dropdown-item">Reading</a></li>
+                       <li><a href="listening.html" class="dropdown-item">Listening</a></li>
+                       <li><a href="speaking.html" class="dropdown-item">Speaking</a></li>
+                       <li><a href="writing.html" class="dropdown-item">Writing</a></li>
+                       <li><a href="practiceexercises.html" class="dropdown-item">Practicing Exercise</a></li>
+                   </ul>
+               </li>
+               <li class="nav-item dropdown me-3"><a href="#" class="nav-link dropdown-toggle ms-2" data-bs-toggle="dropdown">Linguistics</a>
+                   <ul class="dropdown-menu" style="background-color: #fee4e4ea;">
+                       <li><a href="grammar.html" class="dropdown-item">Grammar</a></li>
+                       <li><a href="vocab.html" class="dropdown-item">Vocabulary</a></li>
+                   </ul>
+               </li>
+               <li class="nav-item me-3"><a href="learingtools.html" class="nav-link ms-2">Learning tools</a></li>
+               <li class="nav-item me-3"><a href="aboutus (1).html" class="nav-link ms-2">About us</a></li>
+           </ul>
+           <ul class="navbar-nav ms-auto">
+               <li class="nav-item"><a href="signup 1.html" class="nav-link"><img src="image/sign up.png" alt="icon" width="100px" height="auto"></a></li>
+           </ul>
+          </div>
+   </nav>
+   <!-- End of nav bar -->
+<!-- Header -->
+<div class="header" style="margin-top: 10%;">
+       B2 Speaking
+</div>
+<!-- Content Container -->
+<div class="container content-container">
+<!-- Introduction Section -->
+<div class="section-title">1. Introduction: Debate Skills</div>
+<div class="section-text">
+           In B2-level speaking, you should be able to participate in debates and discussions. At this level, it's important to express your opinions and support them with well-structured arguments. Being able to discuss topics clearly and respectfully is a key skill.
+</div>
+<!-- Giving Arguments -->
+<div class="section-title">2. Giving Strong Arguments</div>
+<div class="section-text">
+           To give a strong argument, you need to state your opinion clearly and explain why you believe it. Use these phrases to express your arguments:
+</div>
+<div class="example-box">
+           "I believe that..."<br>
+           "In my opinion..."<br>
+           "I think it's important to..."
+</div>
+<!-- Providing Reasons and Examples -->
+<div class="section-title">3. Providing Reasons and Examples</div>
+<div class="section-text">
+           It's important to provide reasons and examples when giving an argument. This makes your opinion more convincing and shows that you have thought carefully about the topic. Here are some ways to introduce your reasons:
+</div>
+<ul class="bullet-points">
+<li>"The reason I think this is..."</li>
+<li>"For example..."</li>
+<li>"Let me give you an example..."</li>
+</ul>
+<!-- Refuting Counter-Arguments -->
+<div class="section-title">4. Refuting Counter-Arguments</div>
+<div class="section-text">
+           Sometimes you need to refute or challenge a counter-argument. You can do this politely by using phrases like:
+</div>
+<div class="example-box">
+           "I understand your point, but..."<br>
+           "That's true, but I would argue that..."<br>
+           "You make a good point, however..."
+</div>
+<!-- Practical Tips -->
+<div class="tips-section">
+<div class="tips-title">Tips for Debating</div>
+<ul class="bullet-points">
+<li>Listen carefully to the other person's opinion.</li>
+<li>Stay calm and avoid emotional reactions.</li>
+<li>Use examples to make your points clearer.</li>
+<li>Respect the opinions of others, even if you disagree.</li>
+</ul>
+</div>
+<!-- Practice Section -->
+<div class="section-title">5. Practice: Discuss a Topic</div>
+<div class="section-text">
+           Now it's time to practice! Choose a topic from the list below and discuss it with a partner. Remember to state your opinion clearly, provide reasons and examples, and refute counter-arguments politely.
+</div>
+<ul class="bullet-points">
+<li>Should students wear school uniforms?</li>
+<li>Is social media harmful to young people?</li>
+<li>Should the government increase taxes on unhealthy food?</li>
+</ul>
+<button class="cta-btn">Start Practicing!</button>
+</div>
+<!-- Footer section start -->
+<footer class="footer py-4 mt-5" style="box-shadow: 5px 5px 10px rgb(0, 0, 0);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h3><img src="image/nerdynest_favi.png" alt="icon" width="90px" height="auto">Nerdynest</h3>
+                <p>Email: nerdynest0@gmail.com </p>
+                <p>Address: The Language Hub, Suite 500
+                    45 Crescent Heights Avenue
+                    London, W1B 3HH
+                    United Kingdom</p>
+                <p>Phone number: 09780215339</p>    
+            </div>
+            <div class="col-md-4" style="text-align: start; justify-content: center;">
+                <h3>Skills & Linguistics</h3>
+                <ul class="list">
+                    <li><a href="reading.html" class="text-black">Reading</a></li>
+                    <li><a href="listening.html" class="text-black">Listening</a></li>
+                    <li><a href="speaking.html" class="text-black">Speaking</a></li>
+                    <li><a href="writing.html" class="text-black">Writing</a></li>
+                    <li><a href="grammar.html" class="text-black">Grammar</a></li>
+                    <li><a href="vocab.html" class="text-black">Vocabulary</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h3>Quick Links</h3>
+                <ul class="list">
+                    <li><a href="index.html" class="text-black">Home page</a></li>
+                    <li><a href="learingtools.html" class="text-black">Learning Tools</a></li>
+                    <li><a href="aboutus (1).html" class="text-black">About us</a></li>
+                    <li><a href="signup 1.html" class="text-black">Sign up</a></li>
+                    <li><a href="references.html" class="text-black">References</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h3>Follow Us</h3>
+                <ul class="list">
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=61569394432597&mibextid=LQQJ4d"><i class="bi bi-facebook ms-1"></i></a>
+                        <a href="https://www.instagram.com/nerd.ynest/profilecard/?igsh=MXB3NXBjeWJxNGg2Mw=="><i class="bi bi-instagram ms-1"></i></a>
+                        <a href="https://t.me/nerdynest"><i class="bi bi-telegram ms-1"></i></a>
+                        <a href="https://youtube.com/@nerdynest03?si=7pXg-_2LCZVYcdK_"><i class="bi bi-youtube ms-1"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center mt-4"><hr style="color: rgb(0, 0, 0);">
+            &copy; 2024 Nerdynest | All Rights Reserved
+        </div>
+    </div>
+</footer>
+<!-- Footer section end -->
+</body>
+</html>
+
